@@ -1,9 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body></body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Konversi Suhu</title>
+  <!-- Link CSS -->
+   <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <main>
+    <head>
+      <h1>WEBSITE KONVERSI SUHU</h1>
+    </head>
+    <section>
+      <article class="container">
+        <article class="temperature-converter">
+          <!-- Title & Tanggal -->
+          <p>June, 2024</p>
+          <h2 class="title">Temperature Converter</h2>
+
+          <!-- Info -->
+           <article class="info">
+            <figure class="info-subject">Masukkan suhu derajat Celcius (&deg;C) ke kotak dibawah, lalu klik tombol <br>
+            convert untuk mendapatkan hasil konversi dalam bentuk Farenheit (&deg;F) <br> atau klik tombol reverse untuk melihat hasil konversi kedalam bentuk Celcius (&deg;C).</figure>
+           </article>
+
+           <!-- Celcius -->
+            <article class="celcius">
+              <p>Celcius (&deg;C):</p>
+              <textarea></textarea>
+            </article>
+
+            <!-- Farenheit -->
+            <article class="farenheit">
+              <p>Farenheit (&deg;F):</p>
+              <textarea></textarea>
+            </article>
+
+            <!-- Calculate Formula -->
+             <article class="formula">
+              <p>Cara Kalkulasi:</p>
+              <textarea></textarea>
+             </article>
+
+               <!-- Button -->
+               <article class="btn">
+                <button class="convert-btn">Convert</button>
+                <button class="reverse-btn">Reverse</button>
+                <button class="reset-btn">Reset</button>
+               </article>
+
+               <hr>
+
+              <!-- Formula/Rumus -->
+              <article class="formula">
+                <h3><p>Cara Konversi Dari Celcius (&deg;C) ke Farenheit (&deg;F)</p></h3>
+                <p>Suhu <span class="formula-info"> S </span> dalam derajat Farenheit (&deg;F) sama dengan suhu <span class="formula-info"> S </span> dalam derajat Celcius (&deg;C) <br> kali 9/5 tambah 32.</p>
+                <p><span class="formula-info">S</span><sub>(&deg;F)</sub> = (<span class="formula-info">S</span><sub>(&deg;C)</sub> x 9/5) + 32</p>
+                <p>Atau</p>
+                <p><span class="formula-info">S</span><sub>(&deg;C)</sub> = (<span class="formula-info">S</span><sub>(&deg;F)</sub> x 5/9) - 32</p>
+              </article>
+            </article>
+          </article>
+
+    </section>
+   
+  </main>
+
+
+
+
+
+
+
+
+  <!-- Link Javascript -->
+   <script src="js/script.js"></script>
+</body>
 </html>
